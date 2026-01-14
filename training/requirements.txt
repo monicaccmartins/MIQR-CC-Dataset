@@ -1,0 +1,32 @@
+# Core scientific and ML libraries
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy>=1.10.0
+matplotlib==3.10.8
+seaborn==0.13.2
+Pillow==12.1.0
+
+# PyTorch ecosystem (required for training & models)
+# Set a conservative minimum; choose a CUDA-enabled wheel matching your system.
+torch>=2.0.0
+torchvision>=0.15.0
+torchmetrics==1.8.2
+
+# Useful model / training helpers
+timm>=0.9.2
+monai>=1.2.0
+torchinfo>=0.1.8
+livelossplot>=0.5.4
+
+# Utilities
+tqdm>=4.67.0
+opencv-python>=4.7.0
+ipython
+ipykernel
+jupyter
+
+# Optional / helpful tools (unpin or remove if you don't need them)
+#jupyterlab
+#wandb
+#tensorboard
