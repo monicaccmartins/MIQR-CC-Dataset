@@ -1,4 +1,4 @@
-# Training dataset (fixed split)
+# Training dataset
 
 This folder contains the train, val, and test sets used in the repository's training runs - they are organized by class.
 ---
