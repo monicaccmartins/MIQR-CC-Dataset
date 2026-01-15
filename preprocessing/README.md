@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ## Usage 💡
 
-1. Open `pre-processing.ipynb` in Jupyter or VS Code and run the cells.
+1. Open `preprocessing.ipynb` in Jupyter or VS Code and run the cells.
 2. The notebook reads `metadata.csv`, selects rows where `image_type == 'V'` (vertical), and processes the first 50 examples by default.
 3. For each image it will:
    - read the image in grayscale,
