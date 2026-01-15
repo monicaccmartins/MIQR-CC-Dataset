@@ -7,7 +7,7 @@ This repository contains the preprocessing code and training notebooks used for 
 ## Overview
 
 Endoscopic Retrograde Cholangiopancreatography (ERCP) is a key procedure in the diagnosis
-and treatment of biliary and pancreatic diseases. Artificial Inteligence has being pointed as one solution to automatize diagnosis. However, public ERCP datasets are scarce, which limits the use of such approach. Therefore, the MIQR-CC Dataset proposes filling this gap by providing a large and curated dataset. The collection is composed of 19.018 raw images and 19.317 processed from 1.602 patients. 5.519 cases are labeled, which provides a ready to use dataset. 
+and treatment of biliary and pancreatic diseases. Artificial Inteligence has being pointed as one solution to automatize diagnosis. However, public ERCP datasets are scarce, which limits the use of such approach. Therefore, the MIQR-CC Dataset proposes filling this gap by providing a large and curated dataset. The collection is composed of 19.018 raw images and 19.317 processed from 1.602 patients. 5.519 images are labeled, which provides a ready to use dataset. 
 
 The utility and validity of the dataset is proven by a experiment. This collection aims to provide or contribute for a benchmark in automatic ERCP analysis and diagnosis of biliary and pancreatic diseases.
 
