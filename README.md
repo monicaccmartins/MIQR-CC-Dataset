@@ -1,6 +1,6 @@
 # MIQR-CC Dataset
 
-This repository contains the preprocessing code and training notebooks used for work with the MIQR-CC dataset. When the paper and the dataset are published, links/DOI and the bibliographic reference will be added here.
+This repository contains the preprocessing code and training notebooks used for work with the MIQR-CC dataset.
 
 ---
 
@@ -16,22 +16,14 @@ This repository contains:
 - `preprocessing/` - Jupyter notebook and utilities that demonstrate the image preprocessing pipeline.
 - `training/` - Notebooks used to create train/val/test splits and to train multiple image classification models.
 
-## How to cite (placeholder)
+## How to cite
 
-*Paper:* TBD - will be added when available
+*arXiv:* https://doi.org/10.48550/arXiv.2601.16759
 
-*Dataset DOI / Download link:* TBD - will be added when available
-
-Suggested citation template (details will be replaced when available):
-
-> Author A, Author B, et al. "MIQR-CC: A curated ERCP image dataset for automated analysis." Journal / Repository, YEAR. DOI: <ADD_DOI_HERE>
+*Dataset DOI / Download link:* https://doi.org/10.6084/m9.figshare.31079236
 
 ## Quickstart
 
 1. Read about preprocessing in `preprocessing/README.md` and inspect `preprocessing/preprocessing.ipynb`.
 2. For training, read `training/README.md` and open the notebooks in `training/`.
-3. When the dataset metadata / ZIP is available, place `metadata.csv` and image files in a local path and set the environment variable `METADATA_PATH` (or point notebooks directly to the files).
-
-## License
-
-The license for the dataset and code will be added when the dataset is published; a `LICENSE` file will be included and referenced here.
+3. After downloading the dataset from the provided link, place `metadata.csv` and image files in a local path and set the environment variable `METADATA_PATH` (or point notebooks directly to the files).
