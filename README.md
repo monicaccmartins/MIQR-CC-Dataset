@@ -16,11 +16,11 @@ This repository contains:
 - `preprocessing/` - Jupyter notebook and utilities that demonstrate the image preprocessing pipeline.
 - `training/` - Notebooks used to create train/val/test splits and to train multiple image classification models.
 
-## How to cite
+## Dataset information
 
 *arXiv:* https://doi.org/10.48550/arXiv.2601.16759
 
-*Dataset DOI / Download link:* https://doi.org/10.6084/m9.figshare.31079236
+*Dataset DOI:* https://doi.org/10.6084/m9.figshare.31079236
 
 ## Quickstart
 
