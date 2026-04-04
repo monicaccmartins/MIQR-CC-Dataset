@@ -1,6 +1,6 @@
 # MIQR-CC-Dataset - Preprocessing 🚀
 
-MIQR-CC is a curated ERCP image dataset (19.018 raw and 19.317 processed images from 1.602 patients) created to support research in automated ERCP analysis and diagnosis. The dataset (and associated metadata) will be published separately - the metadata CSV is not included in this repository and a download link / DOI will be added here once available. This folder contains a Jupyter notebook with the preprocessing code, demonstrating representative images before and after processing (visual examples of the pipeline).
+MIQR-CC is a curated ERCP image dataset (19.018 raw and 19.317 processed images from 1.602 patients) created to support research in automated ERCP analysis and diagnosis. This folder contains a Jupyter notebook with the preprocessing code, demonstrating representative images before and after processing (visual examples of the pipeline).
 
 ## Folder overview
 
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ### Important notes
 
-- The dataset metadata (`metadata.csv`) is hosted separately (not in this repository); a download link/DOI will appear here when available. Once downloaded, place `metadata.csv` in the repository root or set an environment variable `METADATA_PATH` pointing to its path so the notebook can find it.
+- The dataset metadata (`metadata.csv`) is hosted separately, available at https://figshare.com/articles/dataset/MIQR-CC_Dataset/31079236. Once downloaded, place `metadata.csv` in the repository root or set an environment variable `METADATA_PATH` pointing to its path so the notebook can find it.
 - `metadata.csv` must contain `raw_image_path` with valid local paths to the image files or URLs.
 - The notebook demonstrates before/after processing examples - it selects `image_type == 'V'` examples and displays original and segmented crops with validity indicators.
 - If images fail to open, the notebook will print an error message for that file.
@@ -74,11 +74,3 @@ pip install -r requirements.txt
 
 - `plot_results(img, edges, lines, segments)`
   - Plots the original image, Canny edges, Hough overlay, and segmented crops with validity indicators.
-
-## Citation / Dataset DOI
-
-The MIQR-CC dataset and its accompanying article will be published separately. When available, the DOI/URL for the dataset and the paper will be added here. Please add the following citation information once available:
-
-- *Paper*: TBD - will be added when available
-- *Dataset DOI / download URL*: TBD - will be added when available
-
