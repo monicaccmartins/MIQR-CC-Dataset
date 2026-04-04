@@ -36,11 +36,3 @@ Trained checkpoints and summary visuals are under `training/models/` (checkpoint
 
 - Fixed splits are included in `training/dataset/` (no need to re-run `split_dataset.ipynb` unless you want a different split).
 - Check each notebook for hyperparameters and random-seed usage.
-
-## TODO / Placeholders
-
-- Add citation/DOI for the dataset and the article when available.
-
-## Contact
-
-Open an issue for questions or requests.
