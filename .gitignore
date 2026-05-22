@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+*.egg-info/
+
+# Notebook/runtime artifacts
+.ipynb_checkpoints/
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Logs/env
+*.log
+.env*
+*.tmp

@@ -1,0 +1,9 @@
+{
+  "ai": "roo",
+  "branch_numbering": "sequential",
+  "context_file": ".roo/rules/specify-rules.md",
+  "here": true,
+  "integration": "roo",
+  "script": "sh",
+  "speckit_version": "0.8.13"
+}
